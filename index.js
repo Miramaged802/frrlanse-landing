@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // تشغيل السلايدر تلقائيًا (اختياري)
-  let autoPlayInterval = setInterval(nextSlide, 5000);
+  let autoPlayInterval = setInterval(nextSlide, 2000);
 
   const carousel = document.querySelector(".carousel");
   carousel.addEventListener("mouseenter", () =>
