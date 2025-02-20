@@ -44,7 +44,7 @@
     </div>
 
     <main>
-        <section class="hero" id="about">
+        <!-- <section class="hero" id="about">
             <div class="hero-content">
                 <h1>المسار الرقمي للخدمات العقارية</h1>
                 <p>المسار الرقمي المميز هو موقع إلكتروني رائد لتسويق العقارات في السعودية، يهدف إلى تحسين تجربة الباحثين عن العقارات من خلال توفير حلول فعالة ومبتكرة، وتقديم مستوى عالٍ من الدعم التقني وخدمة العملاء لتلبية احتياجاتهم ومتطلباتهم، بما يتوافق مع متغيرات السوق العقاري في المملكة وما يشهده من تطورات في الآونة الأخيرة، وذلك لتسهيل عملية البحث عن العقارات وتطوير وتعزيز تجربة تسويق العقارات بشكل إيجابي.</p>
@@ -53,8 +53,26 @@
             <div class="hero-image">
                 <img src="img/home.avif" alt="صورة عقار">
             </div>
-        </section>
-
+        </section> -->
+        
+        <div class="all">
+        <div class="carousel">
+  <div class="carousel-track" id="carouselTrack">
+    <div class="carousel-item">
+      <div class="card" id="dynamicCard">
+        <!-- المحتوى سيتم تحديثه ديناميكيًا -->
+        <h1 id="cardTitle">العنوان</h1>
+        <p id="cardContent">المحتوى</p>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-controls">
+    <button onclick="prevSlide()" class="control-btn prev-btn"  >&#10094;</button>
+    <button onclick="nextSlide()" class="control-btn next-btn" >&#10095;</button>
+  </div>
+  <div class="carousel-dots" id="carouselDots"></div>
+</div>
+</div>
         <section id="services" class="services">
             <h1>خدماتنا</h1>
             
@@ -165,6 +183,5 @@
         </div>
     </footer>
     <script src="index.js"></script>
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </body>
 </html>
