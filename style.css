@@ -253,6 +253,10 @@ nav {
 .control-btn:active {
   transform: scale(0.95); /* تأثير تصغير عند الضغط */
 }
+.carousel-item.beige-background .card {
+  background: #f5e5f7; /* لون بني فاتح */
+  color: #333; /* لون النص داكن للوضوح */
+}
 
 /* Dots */
 .carousel-dots {
@@ -505,6 +509,12 @@ nav {
   transform: scale(1.1);
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
 }
+.boy{
+  background-color: rgb(34, 75, 222);
+}
+.girl{
+  background-color: pink;
+}
 
 /* صندوق المحادثة */
 .whatsapp-chatbox {
@@ -562,7 +572,6 @@ nav {
   padding: 10px;
 }
 .whatsapp-footer a {
-  background: #25d366;
   color: white;
 
   width: 45%;
