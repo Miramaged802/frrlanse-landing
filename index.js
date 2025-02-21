@@ -101,14 +101,14 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // تشغيل السلايدر تلقائيًا (اختياري)
-  let autoPlayInterval = setInterval(nextSlide, 2000);
+  let autoPlayInterval = setInterval(nextSlide, 3000);
 
   const carousel = document.querySelector(".carousel");
   carousel.addEventListener("mouseenter", () =>
     clearInterval(autoPlayInterval)
   );
   carousel.addEventListener("mouseleave", () => {
-    autoPlayInterval = setInterval(nextSlide, 2000);
+    autoPlayInterval = setInterval(nextSlide, 3000);
   });
 
   // تفعيل أول نقطة نشطة عند بدء الصفحة
