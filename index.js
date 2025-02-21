@@ -28,10 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // بيانات الشرائح
   const slidesData = [
-       {
+    {
       title: "المسار الرقمي المميز للخدمات العقارية",
       content: "إدارة نسائية - تواصل مباشر مع مديرة القسم النسائي.",
-      background: "beige" // تعريف خلفية خاصة لهذه الشريحة
+      background: "beige",
+      duration: 10000, 
     },
     {
       title: "المسار الرقمي للخدمات العقارية",
@@ -100,20 +101,20 @@ document.addEventListener("DOMContentLoaded", () => {
     showSlide(currentIndex - 1);
   };
 
-  // تشغيل السلايدر تلقائيًا (اختياري)
-  let autoPlayInterval = setInterval(nextSlide, 3000);
 
-  const carousel = document.querySelector(".carousel");
-  carousel.addEventListener("mouseenter", () =>
-    clearInterval(autoPlayInterval)
-  );
-  carousel.addEventListener("mouseleave", () => {
-    autoPlayInterval = setInterval(nextSlide, 3000);
-  });
+    let autoPlayInterval;
+
+    function startAutoPlay() {
+      clearInterval(autoPlayInterval); // توقف الإعداد السابق
+      const currentSlide = slidesData[currentIndex];
+      const slideDuration = currentSlide.duration || 1000; // استخدام القيمة المخصصة أو الافتراضية (3 ثوانٍ)
+      autoPlayInterval = setInterval(nextSlide, slideDuration);
+    }
 
   // تفعيل أول نقطة نشطة عند بدء الصفحة
   updateDots();
-
+  
   // عرض الشريحة الأولى
   showSlide(currentIndex);
+  startAutoPlay();
 });
