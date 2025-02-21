@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function startAutoPlay() {
       clearInterval(autoPlayInterval); // توقف الإعداد السابق
       const currentSlide = slidesData[currentIndex];
-      const slideDuration = currentSlide.duration || 3000; // استخدام القيمة المخصصة أو الافتراضية (3 ثوانٍ)
+      const slideDuration = currentSlide.duration || 2000; // استخدام القيمة المخصصة أو الافتراضية (3 ثوانٍ)
       autoPlayInterval = setInterval(nextSlide, slideDuration);
     }
 
