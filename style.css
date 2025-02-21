@@ -284,7 +284,7 @@ nav {
 
 @media (max-width: 768px) {
   .carousel {
-    height: 350px; 
+    height: 300px; 
   }
 
   .card h1 {
@@ -624,7 +624,7 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
   nav {
     padding: 0.3rem 2%;
@@ -660,7 +660,7 @@ footer {
     color: var(--primary-color);
   }
   .top-banner {
-    height: 500px;
+    height: 400px;
   }
   .banner-content {
     padding: 0.5rem 2%;
@@ -697,6 +697,9 @@ footer {
   }
 }
 @media (max-width: 699px) {
+  .top-banner{
+    height: 300px;
+  }
   .banner-content {
     flex-direction: row;
     padding: 0;
@@ -767,6 +770,9 @@ footer {
   }
 }
 @media (max-width: 400px) {
+  .top-banner {
+    height: 300px;
+  }
   .logo h3 {
     font-size: 1.4rem;
     margin: 0;
