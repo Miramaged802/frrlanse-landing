@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "المسار الرقمي المميز للخدمات العقارية",
       content: "إدارة نسائية - تواصل مباشر مع مديرة القسم النسائي.",
       background: "beige",
-      duration: 6000, 
+      duration: 3000, 
     },
     {
       title: "المسار الرقمي للخدمات العقارية",
