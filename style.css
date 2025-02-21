@@ -199,7 +199,8 @@ nav {
   flex-direction: column; /* ترتيب المحتوى عموديًا */
   justify-content: center; /* تمركز المحتوى عموديًا */
   align-items: center; /* تمركز المحتوى أفقيًا */
-  padding: 0; /* إزالة الهوامش الداخلية */
+  padding: 0;
+  margin-bottom: 10px; /* إزالة الهوامش الداخلية */
   margin: 0; /* إزالة التباعد الخارجي */
   transition: transform 0.3s ease-in-out; /* تأثير تحريك عند النقر */
 }
