@@ -767,9 +767,6 @@ footer {
   }
 }
 @media (max-width: 400px) {
-  .top-banner {
-    height: 400px;
-  }
   .logo h3 {
     font-size: 1.4rem;
     margin: 0;
@@ -781,7 +778,7 @@ footer {
   }
 
   .top-banner {
-    height: 500px;
+    height: 400px;
     padding: 1rem;
   }
 
