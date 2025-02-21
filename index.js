@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     clearInterval(autoPlayInterval)
   );
   carousel.addEventListener("mouseleave", () => {
-    autoPlayInterval = setInterval(nextSlide, 5000);
+    autoPlayInterval = setInterval(nextSlide, 1000);
   });
 
   // تفعيل أول نقطة نشطة عند بدء الصفحة
