@@ -211,14 +211,14 @@ nav {
 }
 
 .card h1 {
-  font-size: 26px; /* زيادة حجم العنوان */
+  font-size: 40px; /* زيادة حجم العنوان */
   margin-bottom: 15px;
   color: #2c3e50; /* لون عنوان غامق */
   font-weight: bold;
 }
 
 .card p {
-  font-size: 18px; /* زيادة حجم النص */
+  font-size: 40px; /* زيادة حجم النص */
   line-height: 1.6; /* تحسين المسافة بين السطور */
   color: #555555; /* لون نص أخف */
   margin: 0; /* إزالة الهوامش الخارجية */
@@ -281,18 +281,18 @@ nav {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ظل أقوى للنقطة النشطة */
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .carousel {
-    height: 350px; /* تقليل ارتفاع السلايدر على الشاشات الصغيرة */
+    height: 350px; 
   }
 
   .card h1 {
-    font-size: 22px; /* تقليل حجم العنوان */
+    font-size: 30px; /* تقليل حجم العنوان */
   }
 
   .card p {
-    font-size: 16px; /* تقليل حجم النص */
+    font-size: 30px; /* تقليل حجم النص */
   }
 
   .control-btn {
