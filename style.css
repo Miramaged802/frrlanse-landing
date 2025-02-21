@@ -114,11 +114,10 @@ nav {
 .top-banner {
   height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/banner.avif");
+    url("img/banner.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -771,7 +770,7 @@ footer {
 }
 @media (max-width: 400px) {
   .top-banner {
-    height: 300px;
+    height: 400px;
   }
   .logo h3 {
     font-size: 1.4rem;
