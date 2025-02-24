@@ -37,6 +37,10 @@ document.addEventListener("DOMContentLoaded", () => {
       content: "اتفاقيات مع المنفذين.",
     },
     {
+      title: "المسار الرقمي للخدمات العقارية",
+      content: "حلول توحيد الالتزمات",
+    },
+    {
       title: "المسار الرقمي المميز للخدمات العقارية",
       content: "إدارة نسائية - تواصل مباشر مع مديرة القسم النسائي.",
       background: "beige",
