@@ -683,6 +683,7 @@ footer {
     height: 400px;
   }
   .banner-content {
+    margin-top: 10px;
     padding: 0.5rem 2%;
     flex-direction: row;
     gap: 1.5rem;
