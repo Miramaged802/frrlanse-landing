@@ -364,7 +364,7 @@ nav {
   margin-top: 0.5rem; /* Added margin for separation */
 }
 
-.service-card:nth-child(3) {
+.service-card:nth-child(3), .service-card:nth-child(5) {
   background: var(--primary-color);
   color: var(--light-gray);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
