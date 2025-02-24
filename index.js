@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "المسار الرقمي للخدمات العقارية",
-      content: "حلول توحيد الالتزمات",
+      content: "حلول توحيد الالتزامات",
     },
     {
       title: "المسار الرقمي المميز للخدمات العقارية",
